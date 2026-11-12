@@ -1,0 +1,13 @@
+{
+  "name": "trainingstagebuch",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/logic.test.mjs",
+    "test:ui": "playwright test",
+    "start": "python3 -m http.server 8080"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0"
+  }
+}
